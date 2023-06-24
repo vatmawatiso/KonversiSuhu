@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--MyCSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Temperatur Conversion</title>
+  </head>
+  <body>
+    <header class="classHeader">
+      <h3>Temperatur Conversion</h3>
+    </header>
+
+    <section class="txtSection">
+      <div class="txtDiv">
+        <label for="inputfield" id="txtcelcius">Celcius</label>
+        <input type="number" id="inputfield" placeholder="Masukkan nilai" />
+      </div>
+      <div class="inputbuttonsection">
+        <button id="tombol_form">Conversion</button>
+        <button id="tombol_reset">Riset</button>
+        <button id="tombol_reverse">Reverse</button>
+      </div>
+    </section>
+
+    <section class="txtSection">
+      <div class="txtDiv">
+        <label for="hasil" id="txtfahnrenheit">Fahnrenheit</label>
+        <textarea style="background-color: white" id="hasil" rows="1" readonly></textarea>
+      </div>
+    </section>
+
+    <section class="txtSection">
+      <div class="txtDiv">
+        <label for="kalkulasi">Calculation</label>
+        <textarea style="background-color: white" id="kalkulasi" rows="1" disabled></textarea>
+      </div>
+    </section>
+
+    <footer>
+      <p>Created with by <a target="_blank" href="https://id.pinterest.com/vatissosign/">Vatmawati</a></p>
+    </footer>
+
+    <!--MyJS-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
